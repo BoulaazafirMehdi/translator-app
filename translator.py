@@ -8,4 +8,4 @@ def detect_language(text):
         return "unknown"
 
 def translate_text(text, target_lang):
-    return GoogleTranslator(source='auto', target=target_lang).translate(text)
+    return GoogleTranslator(source="auto", target=target_lang).translate(text)
