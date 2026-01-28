@@ -1,12 +1,7 @@
 streamlit
 deep-translator
 langdetect
-speechrecognition
-pyaudio
-pyttsx3
-pytesseract
 pillow
+gTTS
 PyPDF2
 python-docx
-opencv-python
-numpy
