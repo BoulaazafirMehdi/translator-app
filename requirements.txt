@@ -1,0 +1,12 @@
+streamlit
+deep-translator
+langdetect
+speechrecognition
+pyaudio
+pyttsx3
+pytesseract
+pillow
+PyPDF2
+python-docx
+opencv-python
+numpy
