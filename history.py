@@ -4,13 +4,11 @@ from datetime import datetime
 FILE = "history.json"
 
 def save_history(original, translated, src, tgt):
-    data = []
-
     try:
         with open(FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
     except:
-        pass
+        data = []
 
     data.append({
         "date": str(datetime.now()),
